@@ -1,0 +1,56 @@
+.topBar-header{ 
+	height:50px;
+	width: 100%;
+	background-color: #000;
+	color:white;
+	top:0;
+	position: sticky;
+	display: flex;
+	align-items: center;
+	font-family: 'josefin sans', sans-serif;
+}
+.topBar-menu,.topBar-logo{
+	 flex:3; /*#5A4FCF !important rgba(90,79,207,0.3)*/
+   justify-content: center;
+   color: red;
+ }
+ 
+ .topBar-logo{ 
+	 padding-left:30px;
+	 font-size: 1.5em;
+	 font-weight: bold;
+	 text-decoration: underline #5A4FCF;
+	 color: #ffffff;
+	 cursor: pointer;
+ }
+ .topBar-menu{
+	 flex:6;
+	 padding-left:20px;
+	 font-size: 1.5em; 
+	 color: #ffffff;
+ }
+ .topBar-avatar{
+	 flex:1;
+	 width:100px;
+	 justify-content:space-between;
+
+ }
+  
+ .fa-user-circle{
+	 font-size: 2.5em;
+	 color: #ffffff;
+ }
+ .topList{
+	 display: flex;
+	 justify-content: center;
+	 list-style: none;
+ }
+ .topListItem{
+	 padding: 10px;
+	 font-size: 0.6em;
+	 color: #ffffff;
+	 cursor: pointer;
+ }
+ .topListItem:hover{
+	 color: #5A4FCF;
+ }
