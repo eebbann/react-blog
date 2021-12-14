@@ -1,4 +1,4 @@
-# React-Blog 
+# react-blog 
 Blog created using <a href='https://create-react-app.dev/docs/getting-started/'>create-react-app</a> react  toolchain.
 served using express js. 
 styles by stylesheet
