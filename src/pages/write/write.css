@@ -1,3 +1,77 @@
-.write{
+.write{ 
+	padding-top: 50px;
+}
+ .writeImg{
+ 	width: 73vw;
+ 	height: 300px;
+ 	object-fit: cover;
+ 	border-radius: 10px;
+ 	margin-bottom: 20px;
+	 margin-left:30px;
+	 margin-right:30px;
+ }
+
+.writeFormGroup{
+	margin-left: 150px;
+	display: flex;
+	align-items: center;
+	  
+}
+.writeIcon{
+	cursor: pointer;
+	margin-right: 10px;
+	font-size: 28px; 
+}
+.writeInput{
+	font-size: 25px;
+	border: none;
+	background-color:transparent;
+	color: #e4e4e4;
+	font-family: 'josefin sans', sans-serif;
+	 width:70%;
+}
+.writeInput:focus{
+	outline: none;
+
+}
+.writeInput:focus::placeholder{
+	color: #9b9b9b41;
+}
+.writeTextarea{
+	font-size: 25px;
+	border: none;
+	background-color:transparent;
+	color: #e4e4e4;
+	font-family: 'lora', sans-serif;
+	letter-spacing: 1px;
+	padding-top:20px;  
+	width:70%;
 	margin-left:30px;
+	overflow-y:scroll;
+	resize: both;
+  height: 300px;
+
+}
+.writeTextarea:focus{
+	outline: none;
+}
+
+.writeButton{
+position: absolute;
+top: 15em;
+right: 0; 
+margin-right: 9em;
+width: auto; 
+border:2px solid rgb(80, 78, 78);
+padding: 7px 25px;
+font-size: 16px;
+color: gray;
+background-color: transparent;
+border-radius: 5px;
+}
+
+.writeButton:hover{
+	background-color: rgb(83, 74, 180);
+	color: #ffffff;
+
 }
