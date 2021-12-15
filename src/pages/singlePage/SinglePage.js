@@ -12,4 +12,4 @@ function SinglePage() {
 	)
 }
 
-export default SinglePage
+export default SinglePage;
