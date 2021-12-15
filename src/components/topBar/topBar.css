@@ -10,9 +10,8 @@
 	font-family: 'josefin sans', sans-serif;
 }
 .topBar-menu,.topBar-logo{
-	 flex:3; /*#5A4FCF !important rgba(90,79,207,0.3)*/
-   justify-content: center;
-   color: red;
+	 flex:4; /*#5A4FCF !important rgba(90,79,207,0.3)*/
+   justify-content: center; 
  }
  
  .topBar-logo{ 
@@ -24,7 +23,7 @@
 	 cursor: pointer;
  }
  .topBar-menu{
-	 flex:6;
+	 flex:7;
 	 padding-left:20px;
 	 font-size: 1.5em; 
 	 color: #ffffff;

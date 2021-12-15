@@ -1,0 +1,12 @@
+.singlePost{
+ flex:9;
+}
+.singlePostWrapper{
+	padding:20px;
+	padding-right:0
+}
+
+.singlePostImg{
+  width:100%;
+	margin-top:15px
+}
