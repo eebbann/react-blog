@@ -2,6 +2,7 @@
 import TopBar from "./components/topBar/TopBar.js";
 import SinglePage from "./pages/singlePage/SinglePage.js";
 import Write from "./pages/write/Write.js";
+import Settings from "./pages/settings/Settings.js";
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
          <TopBar/>
 				 {/* <Home /> */}
 				 {/* <SinglePage /> */}
-				 <Write />
+				 {/* <Write /> */}
+				 <Settings	/>
     </div>
   );
 }

@@ -1,0 +1,70 @@
+.settings{
+	margin:0px 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.settingsWrapper{
+	flex:9;
+  padding:20px;
+	margin-top:20px;
+}
+.settingsTitle{
+	display: flex; 
+	flex-direction: row;
+	justify-content: space-between;
+}
+.settingUpdateTitle
+{
+	font-size:20px;
+	font-weight:bold;
+	margin-bottom:10px;
+	border: 1px solid #e4e4e4;
+	padding:10px;
+	border-radius:10px;
+}
+
+.settingUpdateTitle:first-child:hover{
+  background-color: rgb(83, 74, 180);
+}
+
+.settingUpdateTitle:nth-child(2):hover{
+	background-color:tomato ;
+}
+.settingsProfilePic{
+  display: flex;
+	flex-direction: column; 
+}
+.settingsProfilePic>img{
+	width:120px;
+	height:120px;
+	border-radius:50%;
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+	 margin: o auto;
+}
+.settingsProfilePic>input{
+	width:100%;
+	height:40px;
+	background:transparent;
+	border:none;
+	padding-bottom:2px;
+	color: white;
+	border-bottom:1px solid #e4e4e4;
+}
+.settingsProfilePic>input:focus{
+	outline:none;
+}
+.settingsProfilePic>label{
+	font-size:16px;
+	font-weight:bold;
+	margin-top:15px;
+	line-height: 1.5em;
+}
+.settingsProfilePic>input::placeholder{
+  font-size:16px;
+	font-weight:lighter; 
+	line-height: 2.5em;
+	padding-left: 5px;
+}
